@@ -1,0 +1,24 @@
+:root {
+  --primary-bg: #f5f7fa;
+  --primary-text: #222;
+}
+
+body.dark {
+  --primary-bg: #181a1b;
+  --primary-text: #f5f7fa;
+}
+
+body {
+  background-color: var(--primary-bg);
+  color: var(--primary-text);
+}
+
+/* Hide scrollbars for all elements */
+* {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;     /* Firefox */
+}
+
+*::-webkit-scrollbar {
+  display: none;
+}

@@ -1,0 +1,46 @@
+.drawerPaper {
+  width: 220px;
+  background: linear-gradient(180deg, #f5f5f5 0%, #e0e0e0 100%);
+  box-shadow: 2px 0 12px rgba(0, 0, 0, 0.08);
+  border-right: 0;
+  animation: slideInSidebar 0.7s cubic-bezier(0.4,0,0.2,1);
+}
+
+@keyframes slideInSidebar {
+  from { transform: translateX(-100%); opacity: 0; }
+  to { transform: translateX(0); opacity: 1; }
+}
+
+.heading {
+  padding: 16px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: #1976d2;
+}
+
+.navList {
+  padding: 0;
+}
+
+.navItemButton {
+  border-radius: 16px;
+  margin: 4px 8px;
+  transition: background 0.3s;
+}
+
+.navItemButton:hover {
+  background: #e0e0e0;
+}
+
+.navItemButton.active {
+  background: #1976d2;
+  color: #fff;
+}
+
+.navItemIcon {
+  color: inherit;
+}
+
+.navItemText {
+  color: inherit;
+} 

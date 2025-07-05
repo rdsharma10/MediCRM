@@ -1,0 +1,82 @@
+.container {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.heading {
+  color: #1976d2;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  margin-top: 2rem;
+  font-size: 1.6rem;
+  letter-spacing: 0.5px;
+}
+
+.exportBtn {
+  margin-bottom: 1rem;
+  font-weight: 600;
+  border-radius: 8px;
+  border: 1.5px solid #1976d2;
+  color: #1976d2;
+  background: #fff;
+  transition: background 0.2s, color 0.2s;
+}
+.exportBtn:hover {
+  background: #1976d2;
+  color: #fff;
+}
+
+.tableContainer {
+  border: 1.5px solid #1976d2;
+  border-radius: 12px;
+  box-shadow: 0 2px 12px 0 rgba(25, 118, 210, 0.08);
+  overflow: hidden;
+}
+
+.table {
+  min-width: 650px;
+  border-collapse: separate;
+  border-spacing: 0;
+}
+
+.tableHeadCell {
+  background: #1976d2;
+  color: #fff;
+  font-weight: 700;
+  border-bottom: 2px solid #1976d2;
+  font-size: 1rem;
+  padding: 0.75rem 1rem;
+}
+.tableHeadCell:first-child {
+  border-top-left-radius: 12px;
+}
+.tableHeadCell:last-child {
+  border-top-right-radius: 12px;
+}
+
+.tableRow {
+  transition: background 0.3s;
+  border-bottom: 1px solid #e0e0e0;
+}
+.zebra {
+  background: #f5f7fa;
+}
+.tableRow:hover {
+  background: #e3f2fd;
+}
+
+.tableCell {
+  color: #333;
+  font-weight: 500;
+  font-size: 0.98rem;
+  padding: 0.7rem 1rem;
+}
+
+.expiring {
+  color: #e65100;
+  font-weight: 600;
+}
+.status {
+  color: #388e3c;
+  font-weight: 600;
+} 
