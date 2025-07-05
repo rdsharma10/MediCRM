@@ -1,26 +1,35 @@
-🏥 #MediCRM – Medical Device CRM & Inventory Management Dashboard
+# MediCRM – Medical Device CRM & Inventory Management Dashboard
 
-MediCRM is a full-featured admin dashboard built using React, Vite, and Material UI. It is designed for managing medical device inventories, tracking installations, service visits, AMC/CMC contracts, and maintaining facility-specific CRM histories including training, feedback, and documentation.
+## MediCRM is a full-featured admin dashboard built using React, Vite, and Material UI. It is designed for managing:
+Medical device inventories
 
-🚀 Tech Stack
+Installation and service tracking
+
+AMC/CMC contracts
+
+Facility-specific CRM: training, feedback, and photo documentation
+
+## 🚀 Tech Stack
 
 ⚛️ React 19
 
 ⚡ Vite 7
 
-🎨 Material UI (MUI v7)
+🎨 Material UI v7
 
 🧠 Redux Toolkit
 
-🧩 React Router DOM v7
+🧭 React Router DOM v7
 
 💬 React Toastify
 
 🎞️ GSAP (Animations)
 
-🧹 UUID, SCSS, Emotion
+🎨 Emotion + SCSS
 
-📦 Project Structure
+🔑 UUID
+
+## 📁 Project Structure
 
 .
 ├── public/
@@ -34,63 +43,63 @@ MediCRM is a full-featured admin dashboard built using React, Vite, and Material
 ├── package.json
 └── README.md
 
-🛠️ Setup & Installation
+## 🛠️ Getting Started
 
-Clone the repository
+### 1. Clone the Repository
 
 git clone https://github.com/rdsharma10/MediCRM.git
 cd MediCRM
 
-Install dependencies
+### 2. Install Dependencies
 
 npm install
 
-Start the development server
+### 3. Start the Development Server
 
 npm run dev
 
-Lint the code (optional)
+### 4. Lint the Code (Optional)
 
 npm run lint
 
-Build for production
+### 5. Build for Production
 
 npm run build
 
-Preview production build
+### 6. Preview Production Build
 
 npm run preview
 
-🧪 Linting Configuration
+## 🧪 ESLint Configuration
 
-The project uses ESLint with recommended React rules:
+The project uses ESLint with recommended plugins:
 
 eslint-plugin-react-hooks
 
 eslint-plugin-react-refresh
 
-Global ignore: dist/
+ESLint config is located in eslint.config.js. Ignored folders include:
 
-You can customize rules in eslint.config.js.
+dist/
 
-📁 Git Ignore
+### 📦 .gitignore Overview
 
-The .gitignore file excludes:
+The .gitignore excludes common items:
 
 node_modules/
 
 dist/
 
-Editor-specific configs like .vscode/, .idea/, etc.
+.vscode/, .idea/, and other editor configs
 
-🧑‍💻 Developer Notes
+### 🧑‍💻 Developer Notes
 
 Entry Point: src/main.jsx
 
-Uses React 19 JSX runtime
+Bundler: Vite 7
 
-Styled using Emotion and SCSS
+Routing: React Router DOM v7
 
-Animations powered by GSAP
+Styling: SCSS + Emotion + MUI
 
-Routing handled by react-router-dom
+Animations: GSAP
