@@ -1,4 +1,4 @@
-#🏥 MediCRM – Medical Device CRM & Inventory Management Dashboard
+🏥 #MediCRM – Medical Device CRM & Inventory Management Dashboard
 
 MediCRM is a full-featured admin dashboard built using React, Vite, and Material UI. It is designed for managing medical device inventories, tracking installations, service visits, AMC/CMC contracts, and maintaining facility-specific CRM histories including training, feedback, and documentation.
 
